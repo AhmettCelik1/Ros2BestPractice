@@ -1,0 +1,13 @@
+ros2_best_practice:
+  # The ROS2_PACKAGE_NAME environment variable is set to the name of the package.
+
+ros__parameters:
+  subscriber_topic_lidar: "/velodyne_points"
+  publisher_topic_lidar: "/velodyne_points_filtered"
+  frame_id: "velodyne"
+
+  subscriber_topic_camera: "/spinnaker_ros_driver_node/cam_fm_01/image_raw"
+  publisher_topic_camera: "/spinnaker_ros_driver_node/cam_fm_01/image_raw_filtered"
+
+  image_width: 1152
+  image_height: 720
