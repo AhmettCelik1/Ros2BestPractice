@@ -5,7 +5,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package='ros2_cpp_pkg',
+            package='ros2_best_practice',
             executable='ros2_best_practice',
             name='ros2_best_practice_1',
             parameters=[
