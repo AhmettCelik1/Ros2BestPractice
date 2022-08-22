@@ -7,6 +7,8 @@ int main(int argc, char **argv)
 
     // auto second_node = std::make_shared<ros2_cpp_pkg::Ros2BestPractice>(t_node_name);
 
+    // auto third_node = std::make_shared<ros2_cpp_pkg::Ros2BestPractice>(t_node_name);
+
     rclcpp::spin(first_node);
     rclcpp::shutdown();
     return 0;

@@ -48,6 +48,7 @@ namespace ros2_cpp_pkg
         m_frame_id = m_parameter_frame_id.get_value<std::string>();
         m_image_width = m_parameter_image_width.get_value<int>();
         m_image_height = m_parameter_image_height.get_value<int>();
+        
 
         ++m_number_objects;
 
