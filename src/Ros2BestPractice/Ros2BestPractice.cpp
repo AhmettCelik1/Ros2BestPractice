@@ -14,7 +14,11 @@ namespace ros2_cpp_pkg
           m_point_cloud{nullptr}, m_image{nullptr},
           m_timer{nullptr},
           m_publisher_topic_lidar{}, m_publisher_topic_image{},
-          m_subscriber_topic_lidar{}, m_subscriber_topic_image{}
+          m_subscriber_topic_lidar{}, m_subscriber_topic_image{},
+          m_frame_id{}, m_image_width{}, m_image_height{},
+          m_parameter_subscriber_topic_lidar{}, m_parameter_publisher_topic_lidar{},
+          m_parameter_subscriber_topic_image{}, m_parameter_publisher_topic_image{},
+          m_parameter_frame_id{}, m_parameter_image_width{}, m_parameter_image_height{}
 
     {
         m_point_cloud = std::make_shared<sensor_msgs::msg::PointCloud2>();
