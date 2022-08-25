@@ -41,15 +41,6 @@ namespace ros2_cpp_pkg
         m_parameter_image_width = this->get_parameter("image_width");
         m_parameter_image_height = this->get_parameter("image_height");
 
-        m_subscriber_topic_lidar = m_parameter_subscriber_topic_lidar.get_value<std::string>();
-        m_subscriber_topic_image = m_parameter_subscriber_topic_image.get_value<std::string>();
-        m_publisher_topic_lidar = m_parameter_publisher_topic_lidar.get_value<std::string>();
-        m_publisher_topic_image = m_parameter_publisher_topic_image.get_value<std::string>();
-        m_frame_id = m_parameter_frame_id.get_value<std::string>();
-        m_image_width = m_parameter_image_width.get_value<int>();
-        m_image_height = m_parameter_image_height.get_value<int>();
-        
-
         ++m_number_objects;
 
         RCLCPP_INFO(this->get_logger(), "Constructor is initializated : %s", __APP_NAME__);
@@ -111,37 +102,37 @@ namespace ros2_cpp_pkg
     }
     inline bool Ros2BestPractice::readParameters()
     {
-        if (m_parameter_subscriber_topic_lidar != this->get_parameter("subscriber_topic_lidar"))
+        if (!this->get_parameter("subscriber_topic_lidar", m_subscriber_topic_lidar))
         {
             RCLCPP_ERROR(this->get_logger(), "[%s] Failed to read parameter subscriber_topic_lidar", __APP_NAME__);
             return false;
         }
-        if (m_parameter_subscriber_topic_image != this->get_parameter("subscriber_topic_image"))
+        if (!this->get_parameter("subscriber_topic_image", m_subscriber_topic_image))
         {
             RCLCPP_ERROR(this->get_logger(), "[%s] Failed to read parameter subscriber_topic_image", __APP_NAME__);
             return false;
         }
-        if (m_parameter_publisher_topic_image != this->get_parameter("publisher_topic_image"))
-        {
-            RCLCPP_ERROR(this->get_logger(), "[%s] Failed to read parameter publisher_topic_image", __APP_NAME__);
-            return false;
-        }
-        if (m_parameter_publisher_topic_lidar != this->get_parameter("publisher_topic_lidar"))
+        if (!this->get_parameter("publisher_topic_lidar", m_publisher_topic_lidar))
         {
             RCLCPP_ERROR(this->get_logger(), "[%s] Failed to read parameter publisher_topic_lidar", __APP_NAME__);
             return false;
         }
-        if (m_parameter_frame_id != this->get_parameter("frame_id"))
+        if (!this->get_parameter("publisher_topic_image", m_publisher_topic_image))
+        {
+            RCLCPP_ERROR(this->get_logger(), "[%s] Failed to read parameter publisher_topic_image", __APP_NAME__);
+            return false;
+        }
+        if (!this->get_parameter("frame_id", m_frame_id))
         {
             RCLCPP_ERROR(this->get_logger(), "[%s] Failed to read parameter frame_id", __APP_NAME__);
             return false;
         }
-        if (m_parameter_image_width != this->get_parameter("image_width"))
+        if (!this->get_parameter("image_width", m_image_width))
         {
             RCLCPP_ERROR(this->get_logger(), "[%s] Failed to read parameter image_width", __APP_NAME__);
             return false;
         }
-        if (m_parameter_image_height != this->get_parameter("image_height"))
+        if (!this->get_parameter("image_height", m_image_height))
         {
             RCLCPP_ERROR(this->get_logger(), "[%s] Failed to read parameter image_height", __APP_NAME__);
             return false;
