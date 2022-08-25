@@ -57,6 +57,22 @@ namespace ros2_cpp_pkg
 
     private:
         /*!
+         *  Parameter Initialization.
+         */
+        void parameterInitilization() const;
+
+        /*!
+         *  rclcpp Parameter Reader
+         */
+        void rclcppParameterReader();
+
+        /*!
+         *  Print Parameters.
+         */
+        void parameterPrinter() const;
+
+        /*!
+         * Reads the only std library variables
          * Reads and verifies the ROS parameters.
          * @return true if successful.
          */
@@ -97,6 +113,9 @@ namespace ros2_cpp_pkg
          * @param m_point_cloud @param m_image  the received message.
          */
         inline void contiuousCallback();
+
+        //! rclcpp node variable
+        rclcpp::Node::SharedPtr m_node;
 
         //! ROS pointer sensor_msgs::pointcloud2 .
         sensor_msgs::msg::PointCloud2::SharedPtr m_point_cloud;
