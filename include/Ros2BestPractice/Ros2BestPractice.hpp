@@ -169,10 +169,10 @@ namespace ros2_cpp_pkg
         bool m_is_image_received{};
 
         //! value of rate for contiuousCallback.
-        const unsigned short m_rate{};
+        const double m_rate{};
 
         //! value of rate waiting for contiuousCallback.
-        const unsigned short m_rate_waiting{};
+        const double m_rate_waiting{};
 
         //! parameter of the subscriber topic lidar name.
         rclcpp::Parameter m_parameter_subscriber_topic_lidar;
