@@ -57,17 +57,17 @@ namespace ros2_cpp_pkg
         /*!
          *  Parameter Initialization.
          */
-        void parameterInitilization() const;
+      inline  void parameterInitilization() const;
 
         /*!
          *  rclcpp Parameter Reader
          */
-        void rclcppParameterReader();
+      inline  void rclcppParameterReader();
 
         /*!
          *  Print Parameters.
          */
-        void parameterPrinter() const;
+     inline   void parameterPrinter() const;
 
         /*!
          * Reads the only std library variables

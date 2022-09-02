@@ -77,7 +77,7 @@ namespace ros2_cpp_pkg
     }
 
     //! Function to read parameters from the parameter server.
-    void Ros2BestPractice::parameterInitilization() const
+    inline void Ros2BestPractice::parameterInitilization() const
     {
 
         m_node->declare_parameter("subscriber_topic_lidar");
@@ -89,7 +89,7 @@ namespace ros2_cpp_pkg
         m_node->declare_parameter("image_height");
     }
 
-    void Ros2BestPractice::rclcppParameterReader()
+    inline void Ros2BestPractice::rclcppParameterReader()
     {
         m_parameter_subscriber_topic_lidar = m_node->get_parameter("subscriber_topic_lidar");
         m_parameter_subscriber_topic_image = m_node->get_parameter("subscriber_topic_image");
@@ -100,7 +100,7 @@ namespace ros2_cpp_pkg
         m_parameter_image_height = m_node->get_parameter("image_height");
     }
 
-    void Ros2BestPractice::parameterPrinter() const
+    inline void Ros2BestPractice::parameterPrinter() const
     {
         RCLCPP_INFO(m_node->get_logger(), "[%s] Subscriber Topic Lidar: %s", __APP_NAME__, m_subscriber_topic_lidar.c_str());
 
