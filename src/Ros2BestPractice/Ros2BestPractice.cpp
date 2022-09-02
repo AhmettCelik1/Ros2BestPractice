@@ -57,7 +57,9 @@ namespace ros2_cpp_pkg
         m_publishers_image[m_publisher_topic_image] = m_node->create_publisher<sensor_msgs::msg::Image>(
             m_publisher_topic_image, 10);
 
-        m_timer = m_node->create_wall_timer(500ms, std::bind(&Ros2BestPractice::contiuousCallback, this));
+        m_timer = m_node->create_wall_timer(
+            std::chrono::milliseconds(500),
+            std::bind(&Ros2BestPractice::contiuousCallback, this));
 
         RCLCPP_INFO(m_node->get_logger(), "[%s] Successfully launched.", __APP_NAME__);
     }

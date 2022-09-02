@@ -10,6 +10,7 @@
 #include <chrono>
 #include <functional>
 #include <unordered_map>
+#include <boost/thread/thread.hpp>
 
 // ROS2 Libraries
 #include "rclcpp/rclcpp.hpp"
@@ -17,9 +18,6 @@
 #include "sensor_msgs/msg/image.hpp"
 
 #define __APP_NAME__ "ros2-best-practice"
-
-using std::placeholders::_1;
-using namespace std::chrono_literals;
 
 namespace ros2_cpp_pkg
 {
