@@ -77,7 +77,7 @@ namespace ros2_cpp_pkg
     }
 
     //! Function to read parameters from the parameter server.
-    inline void Ros2BestPractice::parameterInitilization() const
+    void Ros2BestPractice::parameterInitilization() const
     {
 
         m_node->declare_parameter("subscriber_topic_lidar");
@@ -89,7 +89,7 @@ namespace ros2_cpp_pkg
         m_node->declare_parameter("image_height");
     }
 
-    inline void Ros2BestPractice::rclcppParameterReader()
+    void Ros2BestPractice::rclcppParameterReader()
     {
         m_parameter_subscriber_topic_lidar = m_node->get_parameter("subscriber_topic_lidar");
         m_parameter_subscriber_topic_image = m_node->get_parameter("subscriber_topic_image");
@@ -100,7 +100,7 @@ namespace ros2_cpp_pkg
         m_parameter_image_height = m_node->get_parameter("image_height");
     }
 
-    inline void Ros2BestPractice::parameterPrinter() const
+    void Ros2BestPractice::parameterPrinter() const
     {
         RCLCPP_INFO(m_node->get_logger(), "[%s] Subscriber Topic Lidar: %s", __APP_NAME__, m_subscriber_topic_lidar.c_str());
 
@@ -122,7 +122,7 @@ namespace ros2_cpp_pkg
     }
 
     //! There are two waies to get the parameter value. This is the second way.
-    inline bool Ros2BestPractice::readParameters()
+    bool Ros2BestPractice::readParameters()
     {
         if (!m_node->get_parameter("subscriber_topic_lidar", m_subscriber_topic_lidar))
         {
@@ -163,7 +163,7 @@ namespace ros2_cpp_pkg
         return true;
     }
 
-    inline bool Ros2BestPractice::areDataReceived(const bool &is_cloud_received, const bool &is_image_received)
+    bool Ros2BestPractice::areDataReceived(const bool &is_cloud_received, const bool &is_image_received)
     {
         if (is_cloud_received && is_image_received)
         {
@@ -176,29 +176,29 @@ namespace ros2_cpp_pkg
         return false;
     }
 
-    inline size_t Ros2BestPractice::objectCounter()
+    size_t Ros2BestPractice::objectCounter()
     {
         return m_number_objects;
     }
 
-    inline void Ros2BestPractice::displayActiveObjects() const
+    void Ros2BestPractice::displayActiveObjects() const
     {
         RCLCPP_INFO(m_node->get_logger(), "[%s] Number of active objects: %d", __APP_NAME__, m_number_objects);
     }
 
-    inline void Ros2BestPractice::pointCloudCallback(const sensor_msgs::msg::PointCloud2::SharedPtr t_point_cloud)
+    void Ros2BestPractice::pointCloudCallback(const sensor_msgs::msg::PointCloud2::SharedPtr t_point_cloud)
     {
         m_is_cloud_received = true;
         m_point_cloud = t_point_cloud;
     }
 
-    inline void Ros2BestPractice::imageCallback(const sensor_msgs::msg::Image::SharedPtr t_image)
+    void Ros2BestPractice::imageCallback(const sensor_msgs::msg::Image::SharedPtr t_image)
     {
         m_is_image_received = true;
         m_image = t_image;
     }
 
-    inline void Ros2BestPractice::contiuousCallback()
+    void Ros2BestPractice::contiuousCallback()
     {
         if (areDataReceived(m_is_cloud_received, m_is_image_received))
         {
