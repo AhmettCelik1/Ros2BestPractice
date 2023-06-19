@@ -1,0 +1,16 @@
+/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance/lib/object_avoidance/obstacle_avoidancee
+/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance/share/ament_index/resource_index/package_run_dependencies/object_avoidance
+/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance/share/ament_index/resource_index/parent_prefix_path/object_avoidance
+/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance/share/object_avoidance/environment/ament_prefix_path.sh
+/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance/share/object_avoidance/environment/ament_prefix_path.dsv
+/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance/share/object_avoidance/environment/path.sh
+/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance/share/object_avoidance/environment/path.dsv
+/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance/share/object_avoidance/local_setup.bash
+/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance/share/object_avoidance/local_setup.sh
+/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance/share/object_avoidance/local_setup.zsh
+/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance/share/object_avoidance/local_setup.dsv
+/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance/share/object_avoidance/package.dsv
+/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance/share/ament_index/resource_index/packages/object_avoidance
+/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance/share/object_avoidance/cmake/object_avoidanceConfig.cmake
+/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance/share/object_avoidance/cmake/object_avoidanceConfig-version.cmake
+/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance/share/object_avoidance/package.xml

@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:66 (file):
+  file INSTALL cannot find
+  "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/launch":
+  No such file or directory.
+
+[0m
