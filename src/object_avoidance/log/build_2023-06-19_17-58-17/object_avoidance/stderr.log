@@ -1,0 +1,6 @@
+[01m[K/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/src/obstacle_avoidance.cpp:1:[m[K [01;31m[Kerror: [m[Kunterminated #ifdef
+    1 | #ifdef OBSTACLE_AVOIDANCE_H
+      | 
+make[2]: *** [CMakeFiles/obstacle_avoidance.dir/build.make:76: CMakeFiles/obstacle_avoidance.dir/src/obstacle_avoidance.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/obstacle_avoidance.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

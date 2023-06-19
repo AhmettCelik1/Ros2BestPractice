@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance
+CMAKE_SOURCE_DIR = /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance
+CMAKE_BINARY_DIR = /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance
 
 # Utility rule file for object_avoidance_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/object_avoidance_uninstall.dir/compiler_depend.make
 include CMakeFiles/object_avoidance_uninstall.dir/progress.make
 
 CMakeFiles/object_avoidance_uninstall:
-	/usr/bin/cmake -P /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 object_avoidance_uninstall: CMakeFiles/object_avoidance_uninstall
 object_avoidance_uninstall: CMakeFiles/object_avoidance_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/object_avoidance_uninstall.dir/clean:
 .PHONY : CMakeFiles/object_avoidance_uninstall.dir/clean
 
 CMakeFiles/object_avoidance_uninstall.dir/depend:
-	cd /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/CMakeFiles/object_avoidance_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/CMakeFiles/object_avoidance_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/object_avoidance_uninstall.dir/depend
 

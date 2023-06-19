@@ -1,0 +1,37 @@
+[0.015s] Invoking command in '/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance -- -j8 -l8
+[0.029s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.049s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.231s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.256s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.258s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.351s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.380s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.381s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.463s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.481s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.530s] [31mCMake Error at CMakeLists.txt:27 (add_executable):
+[0.530s]   add_executable cannot create target "obstacle_avoidancee" because another
+[0.530s]   target with the same name already exists.  The existing target is an
+[0.530s]   executable created in source directory
+[0.530s]   "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance".  See
+[0.530s]   documentation for policy CMP0002 for more details.
+[0.530s] 
+[0.530s] [0m
+[0.530s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.578s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.584s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.584s] -- Configured cppcheck include dirs: 
+[0.584s] -- Configured cppcheck exclude dirs and/or files: 
+[0.590s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.590s] -- Configured cpplint exclude dirs and/or files: 
+[0.591s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.593s] -- Added test 'lint_cmake' to check CMake code style
+[0.593s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.599s] -- Added test 'uncrustify' to check C / C++ code style
+[0.600s] -- Configured uncrustify additional arguments: 
+[0.600s] -- Added test 'xmllint' to check XML markup files
+[0.601s] -- Configuring incomplete, errors occurred!
+[0.601s] See also "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/CMakeFiles/CMakeOutput.log".
+[0.601s] See also "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/CMakeFiles/CMakeError.log".
+[0.607s] make: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.609s] Invoked command in '/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance -- -j8 -l8

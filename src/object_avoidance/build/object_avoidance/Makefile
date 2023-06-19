@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance
+CMAKE_SOURCE_DIR = /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance
+CMAKE_BINARY_DIR = /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/CMakeFiles /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/CMakeFiles /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -198,24 +198,24 @@ object_avoidance_uninstall/fast:
 .PHONY : object_avoidance_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named obstacle_avoidancee
+# Target rules for targets named obstacle_avoidance
 
 # Build rule for target.
-obstacle_avoidancee: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 obstacle_avoidancee
-.PHONY : obstacle_avoidancee
+obstacle_avoidance: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 obstacle_avoidance
+.PHONY : obstacle_avoidance
 
 # fast build rule for target.
-obstacle_avoidancee/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoidancee.dir/build.make CMakeFiles/obstacle_avoidancee.dir/build
-.PHONY : obstacle_avoidancee/fast
+obstacle_avoidance/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoidance.dir/build.make CMakeFiles/obstacle_avoidance.dir/build
+.PHONY : obstacle_avoidance/fast
 
 src/obstacle_avoidance.o: src/obstacle_avoidance.cpp.o
 .PHONY : src/obstacle_avoidance.o
 
 # target to build an object file
 src/obstacle_avoidance.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoidancee.dir/build.make CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoidance.dir/build.make CMakeFiles/obstacle_avoidance.dir/src/obstacle_avoidance.cpp.o
 .PHONY : src/obstacle_avoidance.cpp.o
 
 src/obstacle_avoidance.i: src/obstacle_avoidance.cpp.i
@@ -223,7 +223,7 @@ src/obstacle_avoidance.i: src/obstacle_avoidance.cpp.i
 
 # target to preprocess a source file
 src/obstacle_avoidance.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoidancee.dir/build.make CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoidance.dir/build.make CMakeFiles/obstacle_avoidance.dir/src/obstacle_avoidance.cpp.i
 .PHONY : src/obstacle_avoidance.cpp.i
 
 src/obstacle_avoidance.s: src/obstacle_avoidance.cpp.s
@@ -231,7 +231,7 @@ src/obstacle_avoidance.s: src/obstacle_avoidance.cpp.s
 
 # target to generate assembly for a file
 src/obstacle_avoidance.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoidancee.dir/build.make CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoidance.dir/build.make CMakeFiles/obstacle_avoidance.dir/src/obstacle_avoidance.cpp.s
 .PHONY : src/obstacle_avoidance.cpp.s
 
 # Help Target
@@ -249,7 +249,7 @@ help:
 	@echo "... test"
 	@echo "... object_avoidance_uninstall"
 	@echo "... uninstall"
-	@echo "... obstacle_avoidancee"
+	@echo "... obstacle_avoidance"
 	@echo "... src/obstacle_avoidance.o"
 	@echo "... src/obstacle_avoidance.i"
 	@echo "... src/obstacle_avoidance.s"

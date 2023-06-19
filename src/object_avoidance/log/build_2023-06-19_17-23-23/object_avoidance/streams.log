@@ -1,0 +1,38 @@
+[0.013s] Invoking command in '/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance -- -j8 -l8
+[0.026s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.045s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.208s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.232s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.326s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.355s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.355s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.435s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.454s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.497s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.566s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.572s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.572s] -- Configured cppcheck include dirs: 
+[0.572s] -- Configured cppcheck exclude dirs and/or files: 
+[0.576s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.577s] -- Configured cpplint exclude dirs and/or files: 
+[0.577s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.579s] -- Added test 'lint_cmake' to check CMake code style
+[0.580s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.585s] -- Added test 'uncrustify' to check C / C++ code style
+[0.585s] -- Configured uncrustify additional arguments: 
+[0.586s] -- Added test 'xmllint' to check XML markup files
+[0.586s] -- Configuring done
+[0.589s] [31mCMake Error at CMakeLists.txt:26 (add_executable):
+[0.589s]   Cannot find source file:
+[0.589s] 
+[0.589s]     include/obstacle_avoidance.hpp
+[0.589s] 
+[0.589s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.589s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.589s] 
+[0.589s] [0m
+[0.594s] -- Generating done
+[0.596s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.602s] make: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.603s] Invoked command in '/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance -- -j8 -l8

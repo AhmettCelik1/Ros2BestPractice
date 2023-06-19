@@ -7,13 +7,13 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/CMakeLists.txt"
+  "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/CMakeLists.txt"
   "CMakeFiles/3.25.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeSystem.cmake"
   "ament_cmake_core/package.cmake"
   "ament_cmake_package_templates/templates.cmake"
-  "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/package.xml"
+  "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/package.xml"
   "/opt/ros/foxy/cmake/yamlConfig.cmake"
   "/opt/ros/foxy/cmake/yamlConfigVersion.cmake"
   "/opt/ros/foxy/cmake/yamlTargets-none.cmake"
@@ -608,5 +608,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/object_avoidance_uninstall.dir/DependInfo.cmake"
-  "CMakeFiles/obstacle_avoidancee.dir/DependInfo.cmake"
+  "CMakeFiles/obstacle_avoidance.dir/DependInfo.cmake"
   )

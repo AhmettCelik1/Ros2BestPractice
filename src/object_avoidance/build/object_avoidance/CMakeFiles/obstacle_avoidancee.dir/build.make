@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance
+CMAKE_SOURCE_DIR = /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance
+CMAKE_BINARY_DIR = /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance
 
 # Include any dependencies generated for this target.
 include CMakeFiles/obstacle_avoidancee.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/obstacle_avoidancee.dir/progress.make
 include CMakeFiles/obstacle_avoidancee.dir/flags.make
 
 CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.o: CMakeFiles/obstacle_avoidancee.dir/flags.make
-CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.o: /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/src/obstacle_avoidance.cpp
+CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.o: /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/src/obstacle_avoidance.cpp
 CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.o: CMakeFiles/obstacle_avoidancee.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.o -MF CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.o.d -o CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.o -c /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/src/obstacle_avoidance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.o -MF CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.o.d -o CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.o -c /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/src/obstacle_avoidance.cpp
 
 CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/src/obstacle_avoidance.cpp > CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/src/obstacle_avoidance.cpp > CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.i
 
 CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/src/obstacle_avoidance.cpp -o CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/src/obstacle_avoidance.cpp -o CMakeFiles/obstacle_avoidancee.dir/src/obstacle_avoidance.cpp.s
 
 # Object files for target obstacle_avoidancee
 obstacle_avoidancee_OBJECTS = \
@@ -150,7 +150,7 @@ obstacle_avoidancee: /opt/ros/foxy/lib/librcpputils.so
 obstacle_avoidancee: /opt/ros/foxy/lib/librosidl_runtime_c.so
 obstacle_avoidancee: /opt/ros/foxy/lib/librcutils.so
 obstacle_avoidancee: CMakeFiles/obstacle_avoidancee.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable obstacle_avoidancee"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable obstacle_avoidancee"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/obstacle_avoidancee.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -162,6 +162,6 @@ CMakeFiles/obstacle_avoidancee.dir/clean:
 .PHONY : CMakeFiles/obstacle_avoidancee.dir/clean
 
 CMakeFiles/obstacle_avoidancee.dir/depend:
-	cd /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/CMakeFiles/obstacle_avoidancee.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/CMakeFiles/obstacle_avoidancee.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/obstacle_avoidancee.dir/depend
 

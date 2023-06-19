@@ -1,8 +1,8 @@
-# Install script for directory: /home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance
+# Install script for directory: /home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance")
+  set(CMAKE_INSTALL_PREFIX "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/install/object_avoidance")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,35 +43,35 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/object_avoidance/obstacle_avoidancee" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/object_avoidance/obstacle_avoidancee")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/object_avoidance/obstacle_avoidance" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/object_avoidance/obstacle_avoidance")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/object_avoidance/obstacle_avoidancee"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/object_avoidance/obstacle_avoidance"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/object_avoidance" TYPE EXECUTABLE FILES "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/obstacle_avoidancee")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/object_avoidance/obstacle_avoidancee" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/object_avoidance/obstacle_avoidancee")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/object_avoidance" TYPE EXECUTABLE FILES "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/obstacle_avoidance")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/object_avoidance/obstacle_avoidance" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/object_avoidance/obstacle_avoidance")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/object_avoidance/obstacle_avoidancee"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/object_avoidance/obstacle_avoidance"
          OLD_RPATH "/opt/ros/foxy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/object_avoidance/obstacle_avoidancee")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/object_avoidance/obstacle_avoidance")
     endif()
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance" TYPE DIRECTORY FILES "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance" TYPE DIRECTORY FILES "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/launch")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/object_avoidance")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/object_avoidance")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/object_avoidance")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/object_avoidance")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -79,7 +79,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance/environment" TYPE FILE FILES "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance/environment" TYPE FILE FILES "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -87,42 +87,42 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance/environment" TYPE FILE FILES "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance/environment" TYPE FILE FILES "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance" TYPE FILE FILES "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance" TYPE FILE FILES "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance" TYPE FILE FILES "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance" TYPE FILE FILES "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance" TYPE FILE FILES "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance" TYPE FILE FILES "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance" TYPE FILE FILES "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance" TYPE FILE FILES "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance" TYPE FILE FILES "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance" TYPE FILE FILES "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_index/share/ament_index/resource_index/packages/object_avoidance")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_index/share/ament_index/resource_index/packages/object_avoidance")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance/cmake" TYPE FILE FILES
-    "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_core/object_avoidanceConfig.cmake"
-    "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_core/object_avoidanceConfig-version.cmake"
+    "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_core/object_avoidanceConfig.cmake"
+    "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/ament_cmake_core/object_avoidanceConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance" TYPE FILE FILES "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_avoidance" TYPE FILE FILES "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -133,5 +133,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/magnum/ros2_best_practice/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance/build/object_avoidance/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
