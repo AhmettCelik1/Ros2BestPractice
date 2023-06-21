@@ -1,0 +1,11 @@
+[31mCMake Error at CMakeLists.txt:26 (add_executable):
+  Cannot find source file:
+
+    include/obstacle_avoidance.hpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+make: *** [Makefile:267: cmake_check_build_system] Error 1
