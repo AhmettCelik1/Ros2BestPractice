@@ -1,9 +1,0 @@
-[31mCMake Error at CMakeLists.txt:28 (add_executable):
-  add_executable cannot create target "obstacle_avoidancee" because another
-  target with the same name already exists.  The existing target is an
-  executable created in source directory
-  "/home/magnum/ros2_best/src/Ros2BestPractice/src/object_avoidance".  See
-  documentation for policy CMP0002 for more details.
-
-[0m
-make: *** [Makefile:267: cmake_check_build_system] Error 1

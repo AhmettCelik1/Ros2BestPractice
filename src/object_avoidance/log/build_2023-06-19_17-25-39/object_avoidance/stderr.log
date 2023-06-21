@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:28 (target_sources):
-  target_sources called with invalid arguments
-
-[0m
-make: *** [Makefile:267: cmake_check_build_system] Error 1

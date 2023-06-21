@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:31 (install):
-  install TARGETS given unknown argument "include".
-
-[0m
-make: *** [Makefile:267: cmake_check_build_system] Error 1
