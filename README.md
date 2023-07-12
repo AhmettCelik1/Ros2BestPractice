@@ -11,11 +11,15 @@
 
 
 
-
-
 Welcome to the **Ros2BestPractice** repository! This package is designed to provide ROS2 developers with a set of best practices and object-oriented programming methods to enhance their development process.
 
 
+## Features
+
+- Incorporates industry-standard best practices for ROS2 development.
+- Utilizes object-oriented programming techniques for cleaner and modular code.
+- Easy-to-use and ready to integrate into your ROS2 projects.
+- Open-source and actively maintained.
 
 
 
