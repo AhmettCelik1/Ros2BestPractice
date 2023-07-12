@@ -15,59 +15,6 @@
 
 Welcome to the **Ros2BestPractice** repository! This package is designed to provide ROS2 developers with a set of best practices and object-oriented programming methods to enhance their development process.
 
-## Features
-
-- Incorporates industry-standard best practices for ROS2 development.
-- Utilizes object-oriented programming techniques for cleaner and modular code.
-- Easy-to-use and ready to integrate into your ROS2 projects.
-- Open-source and actively maintained.
-
-## Installation
-
-To install **Ros2BestPractice**, follow these steps:
-
-1. Clone the repository to your local machine:
-
-```bash
-git clone https://github.com/AhmettCelik1/Ros2BestPractice.git
-
-
-Build the package using colcon:
-
-```bash
-cd Ros2BestPractice
-
-```bash
-colcon build
-
-
-Source the ROS2 setup file:
-
-
-```bash
-source install/setup.bash
-
-
-Usage
-Once you have successfully installed Ros2BestPractice, you can start utilizing the best practices and object-oriented programming methods in your ROS2 projects. The package provides well-documented code examples and templates to help you get started quickly.
-
-Contributing
-Contributions to Ros2BestPractice are welcome and encouraged! If you find a bug, have a feature request, or would like to contribute code changes, please follow these steps:
-
-1. Check the issue tracker to see if your issue or feature has already been reported.
-2. If not, open a new issue to describe the problem or feature in detail.
-3. Fork the repository and create a new branch for your contribution.
-4. Make your changes and ensure they adhere to the project's coding standards.
-5. Submit a pull request with your changes, referencing the issue you created.
-6. Please note that all contributions to this repository are subject to review and approval by the project maintainers.
-
-License
-This project is licensed under the MIT License. Feel free to use and modify the code according to your needs.
-
-Contact
-If you have any questions or suggestions regarding Ros2BestPractice, you can reach out to me via GitHub or email. Your feedback is greatly appreciated!
-
-
 
 
 
