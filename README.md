@@ -31,20 +31,23 @@ To install **Ros2BestPractice**, follow these steps:
 
 ```bash
 git clone https://github.com/AhmettCelik1/Ros2BestPractice.git
+```
 
 2. Build the package using colcon:
 
 ```bash
 cd Ros2BestPractice
+```
 
 ```bash
 colcon build
+```
 
 3.Source the ROS2 setup file:
 
 ```bash
 source install/setup.bash
-
+```
 
 
 
