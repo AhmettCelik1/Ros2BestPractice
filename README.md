@@ -30,6 +30,14 @@ To install **Ros2BestPractice**, follow these steps:
 1. Clone the repository to your local machine:
 
 ```bash
+mkdir test_ws
+```
+
+```bash
+cd test_ws
+```
+
+```bash
 git clone https://github.com/AhmettCelik1/Ros2BestPractice.git
 ```
 
