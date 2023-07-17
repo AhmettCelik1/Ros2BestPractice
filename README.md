@@ -79,3 +79,13 @@ If you have any questions or suggestions regarding Ros2BestPractice, you can rea
 
 
 ![Star History Chart](https://api.star-history.com/svg?repos=AhmettCelik1/Ros2BestPractice&type=Date)
+
+
+
+## Star History
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=star-history/star-history&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=star-history/star-history&type=Date" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=star-history/star-history&type=Date" />
+</picture>
