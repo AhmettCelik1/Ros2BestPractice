@@ -77,11 +77,6 @@ This project is licensed under the MIT License. Feel free to use and modify the 
 ## Contact
 If you have any questions or suggestions regarding Ros2BestPractice, you can reach out to me via GitHub or email. Your feedback is greatly appreciated!
 
-
-![Star History Chart](https://api.star-history.com/svg?repos=AhmettCelik1/Ros2BestPractice&type=Date)
-
-
-
 ## Star History
 
 <picture>
